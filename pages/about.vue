@@ -4,17 +4,22 @@
       class="container grid justify-center lg:justify-start lg:gap-8 lg:grid-flow-col lg:auto-cols-max text-center lg:text-left mx-auto my-8"
     >
       <div class="image-content self-center">
-        <img class="rounded-full profile-img" src="~/assets/img/profile.jpg" />
+        <img
+          class="rounded-full profile-img pre-anim"
+          src="~/assets/img/profile.jpg"
+        />
       </div>
       <div class="info-content self-center">
         <div class="section-info my-8 py-8">
-          <h1 class="about about-heading">Who is this guy?</h1>
-          <p class="my-4 about about-sub">"pineapple does go on pizza"</p>
-          <p class="about about-text">
+          <h1 class="about about-heading pre-anim">Who is this guy?</h1>
+          <p class="my-4 about about-sub pre-anim">
+            "pineapple does go on pizza"
+          </p>
+          <p class="about about-text pre-anim">
             I'm a front end developer based in Brighton UK, originally from San
             Mauro Pascoli IT.
           </p>
-          <p class="about">
+          <p class="about pre-anim">
             Currently working at
             <a
               href="https://blueskyinteractive.co.uk"
@@ -25,7 +30,7 @@
             >
             building the next generation of automotive websites.
           </p>
-          <div class="skills">
+          <div class="skills pre-anim">
             <h3 class="about-head my-3">Wanna work with me?</h3>
             <a href="mailto:alex.tana1992@gmail.com"
               ><PrimaryButton>@ Drop me a line!</PrimaryButton></a

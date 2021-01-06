@@ -1,7 +1,7 @@
 <template>
   <div class="my-6 grid md:grid-cols-3 gap-5">
     <div
-      class="card text-white"
+      class="card text-white pre-anim"
       v-for="project in projects"
       :key="project.name"
     >

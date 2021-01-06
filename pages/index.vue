@@ -4,8 +4,8 @@
     <div class="title">
       <div class="container mx-auto">
         <div class="main-content my-3">
-          <h1 class="text-4xl intro">Hi I'm Alex</h1>
-          <h2 class="text-2xl intro">
+          <h1 class="text-4xl intro pre-anim">Hi I'm Alex</h1>
+          <h2 class="text-2xl intro pre-anim">
             Front end developer based in Brighton, UK.
           </h2>
         </div>
@@ -36,6 +36,9 @@ export default {
 <style>
 body {
   background: #0d1317;
+}
+.pre-anim {
+  visibility: hidden;
 }
 .menu .nuxt-link-exact-active {
   color: #27fb6b;
