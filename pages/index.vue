@@ -1,7 +1,7 @@
 <template>
   <div class="canvas-container text-center">
     <Bubbles />
-    <div class="title">
+    <div class="title pre-anim intro">
       <div class="container mx-auto">
         <div class="main-content my-3">
           <h1 class="text-4xl intro pre-anim">Hi I'm Alex</h1>
