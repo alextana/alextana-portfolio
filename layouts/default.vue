@@ -9,7 +9,6 @@
 export default {};
 </script>
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;900&display=swap");
 body {
   font-family: "Nunito Sans";
 }
