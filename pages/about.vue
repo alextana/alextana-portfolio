@@ -9,7 +9,7 @@
       <div class="info-content self-center">
         <div class="section-info my-8 py-8">
           <h1 class="about about-heading">Who is this guy?</h1>
-          <p class="my-4 about about-sub">"pineapple does go on pasta"</p>
+          <p class="my-4 about about-sub">"pineapple does go on pizza"</p>
           <p class="about about-text">
             I'm a front end developer based in Brighton UK, originally from San
             Mauro Pascoli IT.
