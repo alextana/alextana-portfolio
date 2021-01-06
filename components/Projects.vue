@@ -135,7 +135,7 @@ export default {
           desc: "Landing page for a startup project in the videogame industry",
           techUsed: "HTML, CSS, Bootstrap, Vanilla JS",
           githubLink: "",
-          siteLink: "https://alextana-portfolio.netlify.app/dreamplay/",
+          siteLink: "https://dreamplay.netlify.app/",
           adobeXDLink: "",
           codepenLink: "",
         },
@@ -156,8 +156,7 @@ export default {
           desc: "Landing page for a videogame that was in development in 2013",
           techUsed: "HTML, CSS, Bootstrap, Vanilla JS",
           githubLink: "",
-          siteLink:
-            "https://alextana-portfolio.netlify.app/imaginixcomlanding/",
+          siteLink: "https://imaginix-landing.netlify.app/",
           adobeXDLink: "",
           codepenLink: "",
         },
