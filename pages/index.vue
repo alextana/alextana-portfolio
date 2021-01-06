@@ -26,7 +26,7 @@ export default {
       duration: ".5",
       autoAlpha: "0",
       y: "-200",
-      delay: ".5",
+      delay: ".3",
       stagger: ".2",
     });
   },
