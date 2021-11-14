@@ -27,7 +27,7 @@ export default {
       autoAlpha: "0",
       y: "200",
       delay: ".5",
-      stagger: ".2",
+      stagger: ".2"
     });
     gsap.from(".project", {
       opacity: 0,
@@ -35,7 +35,7 @@ export default {
       autoAlpha: "0",
       y: "200",
       delay: ".6",
-      stagger: ".1",
+      stagger: ".1"
     });
   },
   destroyed() {
@@ -45,9 +45,9 @@ export default {
       opacity: "0",
 
       delay: "0",
-      stagger: "0",
+      stagger: "0"
     });
-  },
+  }
 };
 </script>
 

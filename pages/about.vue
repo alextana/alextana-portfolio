@@ -21,14 +21,13 @@
           </p>
           <p class="about pre-anim">
             Currently working at
-            <a
-              href="https://blueskyinteractive.co.uk"
-              target="_blank"
-              noopener
-              noreferrer
-              >Bluesky Interactive</a
+            <a href="https://barkweb.co.uk" target="_blank" noopener noreferrer
+              >Barkweb</a
             >
-            building the next generation of automotive websites.
+            building
+            <a href="https://jolojo.com" target="_blank" noopener noreferrer
+              >Jolojo CMS</a
+            >.
           </p>
           <div class="skills pre-anim">
             <h3 class="about-head my-3">Wanna work with me?</h3>
@@ -50,13 +49,13 @@ export default {
     gsap.from(".profile-img", {
       opacity: 0,
       autoAlpha: 0,
-      delay: "1.5",
+      delay: "1.5"
     });
     gsap.from(".skills", {
       opacity: 0,
       autoAlpha: "0",
       delay: ".9",
-      y: "200",
+      y: "200"
     });
     gsap.from(".about", {
       opacity: 0,
@@ -64,9 +63,9 @@ export default {
       autoAlpha: "0",
       y: "-200",
       delay: ".5",
-      stagger: ".2",
+      stagger: ".2"
     });
-  },
+  }
 };
 </script>
 

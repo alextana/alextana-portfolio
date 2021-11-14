@@ -27,9 +27,9 @@ export default {
       autoAlpha: "0",
       y: "-200",
       delay: ".3",
-      stagger: ".2",
+      stagger: ".2"
     });
-  },
+  }
 };
 </script>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="my-6 grid md:grid-cols-3 gap-5">
     <div
-      class="card text-white pre-anim"
+      class="card text-white pre-anim rounded-2xl overflow-hidden"
       v-for="project in projects"
       :key="project.name"
     >
@@ -59,7 +59,7 @@
 
 <script>
 export default {
-  data: function () {
+  data: function() {
     return {
       projects: [
         {
@@ -68,11 +68,11 @@ export default {
           desc:
             "Plug and play solution to calculate whether an electric vehicle is suitable for the client's needs based on user input",
           siteLink:
-            "http://autoe.dev.cogplatform.co.uk/electric-calculator/dist/index.html",
+            "https://www.heritageautomotive.co.uk/electric-calculator/dist/index.html",
           techUsed: "Vue, Webpack, Bootstrap 4, Vue Formulate, Vue Form Wizard",
           githubLink: "",
           adobeXDLink: "",
-          codepenLink: "",
+          codepenLink: ""
         },
         {
           name: "blobs.js",
@@ -83,7 +83,7 @@ export default {
           siteLink: "https://blobsjs.netlify.com/",
           techUsed: "Vanilla JS, HTML, CSS",
           adobeXDLink: "",
-          codepenLink: "",
+          codepenLink: ""
         },
         {
           name: "Give me colors",
@@ -94,7 +94,7 @@ export default {
           siteLink: "https://givemecolors.netlify.com/",
           techUsed: "Vanilla JS, HTML, CSS",
           adobeXDLink: "",
-          codepenLink: "",
+          codepenLink: ""
         },
         {
           name: "Auto100",
@@ -104,7 +104,7 @@ export default {
           githubLink: "",
           siteLink: "http://aut58495.dev.cogplatform.co.uk/",
           adobeXDLink: "",
-          codepenLink: "",
+          codepenLink: ""
         },
         {
           name: "Hartwell Group",
@@ -115,7 +115,7 @@ export default {
           githubLink: "",
           siteLink: "https://hartwell.co.uk",
           adobeXDLink: "",
-          codepenLink: "",
+          codepenLink: ""
         },
         {
           name: "Animation Reveal JS",
@@ -126,7 +126,7 @@ export default {
           githubLink: "",
           siteLink: "https://github.com/alextana/Reveal-Animation-JS",
           adobeXDLink: "",
-          codepenLink: "https://codepen.io/alex-tana/pen/RzEJga",
+          codepenLink: "https://codepen.io/alex-tana/pen/RzEJga"
         },
 
         {
@@ -137,7 +137,7 @@ export default {
           githubLink: "",
           siteLink: "https://dreamplay.netlify.app/",
           adobeXDLink: "",
-          codepenLink: "",
+          codepenLink: ""
         },
         {
           name: "Dreamplay UX",
@@ -148,7 +148,7 @@ export default {
           siteLink: "",
           adobeXDLink:
             "https://xd.adobe.com/view/5594969d-a9e0-4344-4dff-998615606567-23a5/?fullscreen",
-          codepenLink: "",
+          codepenLink: ""
         },
         {
           name: "Imaginix Landing",
@@ -158,11 +158,11 @@ export default {
           githubLink: "",
           siteLink: "https://imaginix-landing.netlify.app/",
           adobeXDLink: "",
-          codepenLink: "",
-        },
-      ],
+          codepenLink: ""
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 
